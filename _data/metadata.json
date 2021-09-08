@@ -1,7 +1,7 @@
 {
   "title": "嘿嘿馬 技術部落格",
-  "url": "https://nicehorse06.github.io/blog",
-  "ogimage": "https://nicehorse06.github.io/blog/img/ogimage.jpg",
+  "url": "https://nicehorse06.netlify.app",
+  "ogimage": "https://nicehorse06.netlify.app/img/ogimage.jpg",
   "domain": "nicehorse06.github.io/blog",
   "description": "錯誤烘焙師，從錯誤中學習",
   "genre": "Insert a schema.org genre",
@@ -11,11 +11,11 @@
     "subtitle": "嘿嘿馬 技術部落格",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://nicehorse06.github.io/blog"
+    "id": "https://nicehorse06.netlify.app"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://nicehorse06.github.io/blog/feed/feed.json"
+    "url": "https://nicehorse06.netlify.app/feed/feed.json"
   },
   "author": {
     "name": "Jimmy 技術部落格",

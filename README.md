@@ -1,6 +1,7 @@
 # 嘿嘿馬 技術部落格
 
-https://nicehorse06.github.io/blog/
+github: https://nicehorse06.github.io/blog/
+netlify暫時網址`https://nicehorse06.netlify.app`，等有domain就會換掉
 
 ## 開發
 
