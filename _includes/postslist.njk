@@ -1,8 +1,10 @@
 <ul>
-{% for post in postslist | reverse %}
-  <li>
+{% for post in postslist %}
+  {% set author = metadata.authors[post.data.author] %} 
+  <li style="margin-top: 8px;">
+    <time class="f-monospace" datetime="{{ post.date | htmlDateString }}">{{ post.date | htmlDateString }}</time>&nbsp;&nbsp;
     <a href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
-    <time  datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+    by <img class="avatar avatar-small" src="{{ author.avatarUrl }}"> <a href="/posts/{{ post.data.author }}">{{ author.name }}</a>
   </li>
 {% endfor %}
 </ul>

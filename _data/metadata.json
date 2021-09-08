@@ -1,26 +1,34 @@
 {
-  "title": "Title of the website. Update me.",
-  "url": "https://update-me.com",
-  "domain": "update-me.com",
-  "description": "Description of the website. Update me.",
+  "title": "嘿嘿馬 技術部落格",
+  "url": "https://nicehorse06.github.io/blog",
+  "ogimage": "https://nicehorse06.github.io/blog/img/ogimage.jpg",
+  "domain": "nicehorse06.github.io/blog",
+  "description": "錯誤烘焙師，從錯誤中學習",
   "genre": "Insert a schema.org genre",
-  "googleAnalyticsId": "GA ID. Update me. Note, that this is not compatible with the not-yet-commonly used version 4 of Google Analytics",
+  "googleAnalyticsId": "",
   "sendWebVitals": false,
   "feed": {
-    "subtitle": "Subtitle. Update me.",
+    "subtitle": "嘿嘿馬 技術部落格",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://update-me.com"
+    "id": "https://nicehorse06.github.io/blog"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://update-me.com/feed/feed.json"
+    "url": "https://nicehorse06.github.io/blog/feed/feed.json"
   },
   "author": {
-    "name": "Author Name. Update me.",
-    "twitterHandle": "update_me"
+    "name": "Jimmy 技術部落格",
+    "twitterHandle": ""
+  },
+  "authors": {
+    "jimmy": {
+      "name": "jimmy",
+      "intro": "我是 Jimmy",
+      "avatarUrl": "/img/authors/jimmy.jpg"
+    }
   },
   "publisher": {
-    "name": "Publisher name. Update me."
+    "name": "Jimmy部落格"
   }
 }

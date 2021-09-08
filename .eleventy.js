@@ -61,18 +61,22 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
 
-  eleventyConfig.addPlugin(localImages, {
-    distPath: "_site",
-    assetPath: "/img/remote",
-    selector:
-      "img,amp-img,amp-video,meta[property='og:image'],meta[name='twitter:image'],amp-story",
-    verbose: false,
-  });
+  // NOTE: we don't need this plugin for now
+  // eleventyConfig.addPlugin(localImages, {
+  //   distPath: "_site",
+  //   assetPath: "/img/remote",
+  //   selector:
+  //     "img,amp-img,amp-video,meta[property='og:image'],meta[name='twitter:image'],amp-story",
+  //   verbose: false,
+  // });
 
+  eleventyConfig.addPlugin(require("./_11ty/summary.js"));
+  eleventyConfig.addPlugin(require("./_11ty/link-target.js"));
   eleventyConfig.addPlugin(require("./_11ty/img-dim.js"));
   eleventyConfig.addPlugin(require("./_11ty/json-ld.js"));
   eleventyConfig.addPlugin(require("./_11ty/optimize-html.js"));
-  eleventyConfig.addPlugin(require("./_11ty/apply-csp.js"));
+  // NOTE: disable CSP because we don't need it
+  // eleventyConfig.addPlugin(require("./_11ty/apply-csp.js"));
   eleventyConfig.setDataDeepMerge(true);
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
   eleventyConfig.addNunjucksAsyncFilter("addHash", function (
@@ -189,6 +193,7 @@ module.exports = function (eleventyConfig) {
     permalink: true,
     permalinkClass: "direct-link",
     permalinkSymbol: "#",
+    permalinkBefore: true
   });
   eleventyConfig.setLibrary("md", markdownLibrary);
 
