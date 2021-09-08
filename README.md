@@ -83,3 +83,5 @@ css/main.css 所有的樣式都在裡面，有新增的都放在最下面
 * [eleventy-high-performance-blog](https://github.com/google/eleventy-high-performance-blog)
 * [utterances ](https://utteranc.es/)
 * [[部落格改版學DevOps][08]netlify 超佛心的靜態網站hosting服務 - 不只做hosting還有更多](https://blog.alantsai.net/posts/2018/07/migrate-blog-to-ssg-demo-devops-8-netlify-free-static-site-hosting-service)
+* [除了 hexo，也可以考慮用 eleventy 來寫技術部落格](https://blog.huli.tw/2021/08/22/eleventy-over-hexo/)
+* [ErrorBaker 技術共筆部落格](https://blog.errorbaker.tw/)
