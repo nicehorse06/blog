@@ -75,10 +75,10 @@ css/main.css 所有的樣式都在裡面，有新增的都放在最下面
 ## 文章規範
 
 ## 參考資源
-
-1. [Eleventy Documentation](https://www.11ty.dev/docs/collections/)
-2. [Nunjucks 文件](https://mozilla.github.io/nunjucks/templating.html)
-[為什麼我離開 Medium 用 eleventy 做一個 blog](https://jason-memo.dev/posts/why-i-leave-medium-and-build-blog-with-eleventy/) 
-[eleventy-high-performance-blog](https://github.com/google/eleventy-high-performance-blog)
-[utterances ](https://utteranc.es/)
-[[部落格改版學DevOps][08]netlify 超佛心的靜態網站hosting服務 - 不只做hosting還有更多](https://blog.alantsai.net/posts/2018/07/migrate-blog-to-ssg-demo-devops-8-netlify-free-static-site-hosting-service)
+* [netlify](https://www.netlify.com/)
+* [Eleventy Documentation](https://www.11ty.dev/docs/collections/)
+* [Nunjucks 文件](https://mozilla.github.io/nunjucks/templating.html)
+* [為什麼我離開 Medium 用 eleventy 做一個 blog](https://jason-memo.dev/posts/why-i-leave-medium-and-build-blog-with-eleventy/) 
+* [eleventy-high-performance-blog](https://github.com/google/eleventy-high-performance-blog)
+* [utterances ](https://utteranc.es/)
+* [[部落格改版學DevOps][08]netlify 超佛心的靜態網站hosting服務 - 不只做hosting還有更多](https://blog.alantsai.net/posts/2018/07/migrate-blog-to-ssg-demo-devops-8-netlify-free-static-site-hosting-service)
