@@ -12,14 +12,7 @@ pagination:
 permalink: /{% if pagination.pageNumber > 0 %}articles/{{ pagination.pageNumber }}/{% endif %}
 ---
 
-<section class="intro">
-<p>
-  Hi，這是 嘿嘿馬 技術部落格。
-</p>
-<p>
-  部落格會分享Web的前後端知識。
-</p>
-</section>
+
 <section class="posts">
   {% set postslist = posts %}
   {% include "home-postslist.njk" %}

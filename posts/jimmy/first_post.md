@@ -12,6 +12,4 @@ layout: layouts/post.njk
 
 <!-- summary -->
 
-# 內文的我的第一篇文章標題
-
 裡面的文章內容

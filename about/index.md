@@ -6,9 +6,11 @@ eleventyNavigation:
   order: 3
 ---
 
-## 緣起
+## 介紹
 
-Hi I am Jimmy
+Hi，這是 嘿嘿馬 技術部落格。
+
+部落格會分享Web的前後端知識。
 
 ## 作者
 

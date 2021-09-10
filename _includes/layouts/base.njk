@@ -123,7 +123,6 @@
         <div id="reading-progress" aria-hidden="true"></div>
       </nav>
       <h1 class="w-full">{{ title }}</h1>
-      {% block extraArticleHeader %}{% endblock %}
       <dialog id="message"></dialog>
       {% if googleanalytics %}
       <noscript>
@@ -135,6 +134,7 @@
 
     <main>
       <article>
+      {% block extraArticleHeader %}{% endblock %}
         {% block article %}
           {{ content | safe }}
         {% endblock %}

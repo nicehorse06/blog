@@ -86,3 +86,5 @@ css/main.css 所有的樣式都在裡面，有新增的都放在最下面
 * [除了 hexo，也可以考慮用 eleventy 來寫技術部落格](https://blog.huli.tw/2021/08/22/eleventy-over-hexo/)
 * [ErrorBaker 技術共筆部落格](https://blog.errorbaker.tw/)
 * [cymetrics/blog](https://github.com/cymetrics/blog)
+
+fork from [error-baker-blog](https://github.com/Lidemy/error-baker-blog) and [eleventy-high-performance-blog](https://github.com/google/eleventy-high-performance-blog)

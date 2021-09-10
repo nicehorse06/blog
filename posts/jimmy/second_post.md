@@ -1,7 +1,7 @@
 ---
 title: 我的第二篇文章
 date: 2021-09-09
-tags: [test_blog]
+tags: [test_blog_2]
 author: jimmy
 layout: layouts/post.njk
 ---
@@ -12,6 +12,5 @@ layout: layouts/post.njk
 
 <!-- summary -->
 
-# 內文的我的第二篇文章標題
 
 裡面的文章內容
