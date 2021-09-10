@@ -3,12 +3,9 @@
 <article class="post">
   <div class="post-body">
     <a href="{{ post.url | url }}"><h3 class="post-title">{{ post.data.title | safe }}</h3></a>
+    <time class="f-monospace post-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | htmlDateString }}</time>
     {% summary post=post.templateContent %}
-    <div class="post-info">
-          <img src="{{ author.avatarUrl}}" class="avatar-small" />
-          <span class="post-author">{{ author.name }}</span>
-        on<time class="f-monospace post-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | htmlDateString }}</time>
-    </div>
+    <a href="{{ post.url | url }}">閱讀更多</a>
   </div>
   {% if post.data.image %}
   <div class="post-cover">

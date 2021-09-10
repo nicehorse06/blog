@@ -1253,11 +1253,6 @@ body.dark {
   margin-left: 4px;
 }
 
-.post-date {
-  font-size: var(--p);
-  margin-left: 4px;
-}
-
 .summary {
   font-size: var(--p);
   line-height: 1.6rem;
