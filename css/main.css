@@ -4,7 +4,7 @@
   --primary-dark: #e7bf60;
   --fgColor: #181818;
   --bgColor: #fff;
-  --progressColor: #f9c412;
+  --progressColor: #FDF3CF;
   --fg: var(--fgColor);
   --bg: var(--bgColor);
 
@@ -785,7 +785,7 @@ header label {
   display: none;
 }
 header {
-  padding: 4.5em 1.5em 3em;
+  padding: 3.5em 1.5em 1em;
   width: 50.5em;
   margin: 0 auto;
   text-align: center;
@@ -818,7 +818,7 @@ header nav a {
   font-family: var(--font-family);
   color: #181818;
   margin-left: 1.5em;
-  font-size: 0.7rem;
+  font-size: 1rem;
 }
 header nav a:first-of-type {
   margin-left: auto;
